@@ -9,7 +9,23 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="box" id="stripe-button">
+            <stripe-buy-button buy-button-id="buy_btn_1SLhG5HmIWMgJMx5qN9TvD5U"
+                publishable-key="pk_test_51SLgj9HmIWMgJMx5ky0Y1CAeZNFQnw7xFq4r2Xe8TcTLSp9AxC1Z7sxDMdQ6kBUPmbhzPcInpwM5oHwpNtCssPNf00p0Oj3wCJ">
+            </stripe-buy-button>
+        </div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
 
+    <!-- Main JS Script -->
+    <script src="assets/js/script.js"></script>
+    <!-- Stripe payment button -->
+    <script async src="https://js.stripe.com/v3/buy-button.js">
+    </script>
 </body>
 
 </html>
