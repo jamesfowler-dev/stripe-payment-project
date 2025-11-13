@@ -1,4 +1,6 @@
 body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 
 div {
@@ -24,4 +26,10 @@ div {
     margin: 1rem;
     border: black 10px;
     border-radius: 10%;
+}
+
+iframe {
+    width: 900px;
+    height: 352px;
+    border-radius: 12px;
 }
